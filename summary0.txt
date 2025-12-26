@@ -1,3 +1,29 @@
+Key Global Economic Regions and Blocs
+	North America (USA, Canada, Mexico): A dominant region characterized by high GDP per capita, advanced technology, and integrated supply chains.
+	East Asia & Pacific: A hub of rapid industrialization, technology manufacturing, and significant global trade.
+
+	Europe & Central Asia： This region contains the European Union — the second-largest global economy; four of the top 10 richest countries on Earth; the five nations of Central Asia — Kazakhstan, Kyrgyz Republic, Tajikistan, Turkmenistan, Uzbekistan; the land mass that bridges both Europe and Asia; and Türkiye. Fifty-four of the region’s countries are either high- or middle-income economies.
+
+	Latin America and the Caribbean: A region known for natural resources, with major economies including Brazil and Mexico.
+	Middle East, North Africa, Afghanistan, and Pakistan (MENAAP) region is a major economic, demographic, and energy-focused bloc often analyzed together due to shared challenges like conflict, high youth unemployment, and dependence on oil.
+
+	Sub-Saharan Africa: A region with growing economic potential, focused on development and resource extraction. 
+
+
+choose below from definition above:
+ 'World': 'WLD'
+ 'North America': 'NAC',
+ 'East Asia & Pacific': 'EAS',
+ 'Europe & Central Asia': 'ECS',
+ 'Latin America & Caribbean': 'LCN',
+ 'Sub-Saharan Africa': 'SSF',
+           |=>   'Africa Eastern and Southern': 'AFE'
+           |=>   'Africa Western and Central': 'AFW'
+ 'South Asia': 'SAS',            
+ 'Middle East, North Africa, Afghanistan & Pakistan': 'MEA',
+
+
+
 1. Global Adoption Analysis: Analyse digital currency adoption trends across countries using historical transaction and usage data.
  	Tools: ggplot with python
  	Aim: Analyse Digital currency growth and spread through transaction volume.
@@ -20,9 +46,9 @@
  		Demographic penetration
  		Inflation   => https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
  		Unemployment  => https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
- 		interest rate  => https://data.worldbank.org/indicator/FR.INR.RINR
- 		Exchange Rates  => https://data.worldbank.org/indicator/PA.NUS.FCRF
- 		Financial Inclusion Indicators （ measure access, usage, and quality of financial services, focusing on key metrics like % of adults with an account, digital payment adoption, access to credit/savings, financial literacy, consumer protection, and mobile agent density）=> https://databank.worldbank.org/reports.aspx?source=g20-basic-set-of-financial-inclusion-indicators#
+ 		xinterest rate  => https://data.worldbank.org/indicator/FR.INR.RINR
+ 		xExchange Rates  => https://data.worldbank.org/indicator/PA.NUS.FCRF
+ 		xFinancial Inclusion Indicators （ measure access, usage, and quality of financial services, focusing on key metrics like % of adults with an account, digital payment adoption, access to credit/savings, financial literacy, consumer protection, and mobile agent density）=> https://databank.worldbank.org/reports.aspx?source=g20-basic-set-of-financial-inclusion-indicators#
  		Government Debt (Debt-to-GDP Ratio) => https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS
  	Data:
  		DC history for Countries:
