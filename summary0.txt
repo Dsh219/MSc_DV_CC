@@ -1,1 +1,99 @@
-1. Global Adoption Analysis: Analyse digital currency adoption trends across countries using historical transaction and usage data. 	Tools: ggplot with python 	Aim: Analyse Digital currency growth and spread through transaction volume. 	Data: 		Growth(transaction history) :	https://coinmarketcap.com/historical/ 			csv of different coins can be downloaded daily/weekly/monthly 		DC history for Countries: chainalysis-Crypto Adoption Index: 2020-2025 (Chainalysis is a blockchain 					analytics company that helps governments, law enforcement agencies, and 					financial institutions track and investigate cryptocurrency transactions.) 	Results: 		Trend 		Global adoption report2. Economic Impact Visualisation: Explore relationships between cryptocurrency adoption and macroeconomic indicators (e.g., inflation, unemployment) using advanced visualisations like heatmaps and scatter plots. 	Tools: ggplot with python 	Aim: Understand the relationship between cryptocurrency adoption and macroeconomic indicators. 	Macroeconomic indicators: 		GDP    =>  https://data.worldbank.org/indicator/NY.GDP.MKTP.CD 		Transaction volumes??? 		Demographic penetration 		Inflation   => https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG 		Unemployment  => https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS 		interest rate  => https://data.worldbank.org/indicator/FR.INR.RINR 		Exchange Rates  => https://data.worldbank.org/indicator/PA.NUS.FCRF 		Financial Inclusion Indicators （ measure access, usage, and quality of financial services, focusing on key metrics like % of adults with an account, digital payment adoption, access to credit/savings, financial literacy, consumer protection, and mobile agent density）=> https://databank.worldbank.org/reports.aspx?source=g20-basic-set-of-financial-inclusion-indicators# 		Government Debt (Debt-to-GDP Ratio) => https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS 	Data: 		DC history for Countries: 		Macroeconomic indicators data for countries: 	Results: 		Trend for each country 		relationship between trend and each indicator for each country? 3. Blockchain Network Analysis: Utilise graph-based visualisation techniques to analyse blockchain transaction networks. Identify key nodes, transaction flows and anomalies. 	Tools: networkx 	Aim: visualize the "social network" of money: 		Identify Key Nodes: Find the "hubs." Who are the most important players? (e.g., A Coinbase hot 				wallet, a massive "Whale" investor, or a dark web market). 		Trace Transaction Flows: Follow the money. If $10M enters the network, where does it go? Does it 			disperse to thousands of people, or funnel into one account? 		Detect Anomalies: Spot the weird stuff. Is a wallet behaving like a bot? Is someone "wash trading" 			(selling to themselves) to fake volume? 	Useful links: 		https://online.stanford.edu/how-does-blockchain-work 	Paper: 		https://arxiv.org/abs/2110.14765 		https://www.researchgate.net/publication/380767108					 				_Blockchain_transaction_analysis_a_comprehensive_review_of_applications_tasks_and_methods 		https://arxiv.org/abs/1908.06971 		https://arxiv.org/abs/1908.11808 		https://www.sciencedirect.com/science/article/abs/pii/S1084804521001557 		https://arxiv.org/html/2505.08772v1 		https://www.sciencedirect.com/science/article/pii/S2772662223001844 		https://www.researchgate.net/publication/318131748			 						_An_Overview_of_Blockchain_Technology_Architecture_Consensus_and_Future_Trends 	Results: 		understand how digital currency flows in the network4. National Security Implications: Apply anomaly detection techniques to visualise potential risks such as fraud, money laundering, or unauthorised cross-border transactions. Use interactive visualisations for enhanced understanding. 	Tools: plotly 	Aims: Anomaly detection = finding patterns that are different from normal behaviour. 	What to do: 		Design a system that can take transactions and highlight the risks, which means need to know the pattern of all the risks list above.5. Policy Simulation Dashboard: Develop an interactive dashboard using Plotly Dash to evaluate the impact of different regulatory policies on digital currency markets. Include metrics such as transaction compliance rates and fraud detection efficiency. 	Tools: plotly 	Aims: Simulate impacts on DC markets on different policies 	What to do: 		Design policies based on research and the results from above 4 qs.6. Ethical Considerations in Data Visualisation: Critically evaluate the ethical implications of visualising sensitive financial data and propose strategies to balance transparency with privacy concerns.better data: 	https://coinmarketcap.com/historical/https://www.chainalysis.com/blog/2025-global-crypto-adoption-index/Plan: 	Tasks: 	Report:	Intro, methodology (remember to include tests validations if used), analysis, conclusions 	File system: Readme, <data>, <results>, scripts....P.S.useful： 	https://www.atlanticcouncil.org/programs/geoeconomics-center/cryptoregulationtracker/ggplot with python:https://realpython.com/ggplot-python/#setting-up-your-environmentnetwork with python:https://networkx.org/en/plotly:https://dash.plotly.com/ 
+1. Global Adoption Analysis: Analyse digital currency adoption trends across countries using historical transaction and usage data.
+ 	Tools: ggplot with python
+ 	Aim: Analyse Digital currency growth and spread through transaction volume.
+ 	Data:
+ 		Growth(transaction history) :	https://coinmarketcap.com/historical/
+ 			csv of different coins can be downloaded daily/weekly/monthly
+        another site as well : https://www.coingecko.com/
+        
+ 		DC history for Countries: chainalysis-Crypto Adoption Index: 2020-2025 (Chainalysis is a blockchain 					analytics company that helps governments, law enforcement agencies, and 					financial institutions track and investigate cryptocurrency transactions.)
+ 	Results:
+ 		Trend
+ 		Global adoption report
+
+2. Economic Impact Visualisation: Explore relationships between cryptocurrency adoption and macroeconomic indicators (e.g., inflation, unemployment) using advanced visualisations like heatmaps and scatter plots.
+ 	Tools: ggplot with python
+ 	Aim: Understand the relationship between cryptocurrency adoption and macroeconomic indicators.
+ 	Macroeconomic indicators:
+ 		GDP    =>  https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+ 		Transaction volumes???
+ 		Demographic penetration
+ 		Inflation   => https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
+ 		Unemployment  => https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+ 		interest rate  => https://data.worldbank.org/indicator/FR.INR.RINR
+ 		Exchange Rates  => https://data.worldbank.org/indicator/PA.NUS.FCRF
+ 		Financial Inclusion Indicators （ measure access, usage, and quality of financial services, focusing on key metrics like % of adults with an account, digital payment adoption, access to credit/savings, financial literacy, consumer protection, and mobile agent density）=> https://databank.worldbank.org/reports.aspx?source=g20-basic-set-of-financial-inclusion-indicators#
+ 		Government Debt (Debt-to-GDP Ratio) => https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS
+ 	Data:
+ 		DC history for Countries:
+ 		Macroeconomic indicators data for countries:
+ 	Results:
+ 		Trend for each country
+ 		relationship between trend and each indicator for each country?
+
+ 
+3. Blockchain Network Analysis: Utilise graph-based visualisation techniques to analyse blockchain transaction networks. Identify key nodes, transaction flows and anomalies.
+ 	Tools: networkx
+ 	Aim: visualize the "social network" of money:
+ 		Identify Key Nodes: Find the "hubs." Who are the most important players? (e.g., A Coinbase hot 				wallet, a massive "Whale" investor, or a dark web market).
+ 		Trace Transaction Flows: Follow the money. If $10M enters the network, where does it go? Does it 			disperse to thousands of people, or funnel into one account?
+ 		Detect Anomalies: Spot the weird stuff. Is a wallet behaving like a bot? Is someone "wash trading" 			(selling to themselves) to fake volume?
+ 	Useful links:
+ 		https://online.stanford.edu/how-does-blockchain-work
+ 	Paper:
+ 		https://arxiv.org/abs/2110.14765
+ 		https://www.researchgate.net/publication/380767108					 				_Blockchain_transaction_analysis_a_comprehensive_review_of_applications_tasks_and_methods
+ 		https://arxiv.org/abs/1908.06971
+ 		https://arxiv.org/abs/1908.11808
+ 		https://www.sciencedirect.com/science/article/abs/pii/S1084804521001557
+ 		https://arxiv.org/html/2505.08772v1
+ 		https://www.sciencedirect.com/science/article/pii/S2772662223001844
+ 		https://www.researchgate.net/publication/318131748			 						_An_Overview_of_Blockchain_Technology_Architecture_Consensus_and_Future_Trends
+
+ 	Results:
+ 		understand how digital currency flows in the network
+
+
+4. National Security Implications: Apply anomaly detection techniques to visualise potential risks such as fraud, money laundering, or unauthorised cross-border transactions. Use interactive visualisations for enhanced understanding.
+ 	Tools: plotly
+ 	Aims: Anomaly detection = finding patterns that are different from normal behaviour.
+ 	What to do:
+ 		Design a system that can take transactions and highlight the risks, which means need to know the pattern of all the risks list above.
+
+
+
+5. Policy Simulation Dashboard: Develop an interactive dashboard using Plotly Dash to evaluate the impact of different regulatory policies on digital currency markets. Include metrics such as transaction compliance rates and fraud detection efficiency.
+ 	Tools: plotly
+ 	Aims: Simulate impacts on DC markets on different policies
+ 	What to do:
+ 		Design policies based on research and the results from above 4 qs.
+
+
+
+
+6. Ethical Considerations in Data Visualisation: Critically evaluate the ethical implications of visualising sensitive financial data and propose strategies to balance transparency with privacy concerns.
+
+
+
+
+
+better data:
+ 	https://coinmarketcap.com/historical/
+https://www.chainalysis.com/blog/2025-global-crypto-adoption-index/
+
+Plan:
+ 	Tasks:
+ 	Report:	Intro, methodology (remember to include tests validations if used), analysis, conclusions
+ 	File system: Readme, <data>, <results>, scripts....
+
+P.S.
+useful：
+ 	https://www.atlanticcouncil.org/programs/geoeconomics-center/cryptoregulationtracker/
+
+ggplot with python:
+https://realpython.com/ggplot-python/#setting-up-your-environment
+network with python:
+https://networkx.org/en/
+plotly:
+https://dash.plotly.com/
+ 
