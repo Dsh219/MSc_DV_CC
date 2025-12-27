@@ -29,7 +29,7 @@ Source:
 Fraud :
 pig butchering  => https://www.elliptic.co/blog/levelling-up-crypto-fraud-and-money-laundering-investigations-with-automatic-behavioral-detection
 
-laundry patter => Fig 2 at https://arxiv.org/abs/2508.12641
+laundry pattern => Fig 2 at https://arxiv.org/abs/2508.12641
 
 
 https://www.complycube.com/en/crypto-money-laundering-red-flags 
