@@ -1,0 +1,60 @@
+Transactional red flags provide the strongest signals of money laundering or terrorist financing. These anomalies usually appear in account movement, transfer destinations, or fund flow velocity.
+
+-Frequent high-value deposits or withdrawals inconsistent with the customer’s stated business.
+-Structuring (“smurfing”)—breaking large transactions into smaller, sequential deposits to avoid reporting thresholds.
+-Layering transfers—multiple account-to-account or cross-border movements designed to obscure fund origin.
+-Wire transfers to or from sanctioned jurisdictions or unlicensed money service businesses.
+-Payments involving shell or shelf companies with no visible operations.
+-Use of crypto assets or exchanges with weak AML controls.
+
+Other fintech-specific AML red flags include:
+
+-Immediate high-value transfers after digital onboarding.
+-Multiple logins from different geographies or devices.
+-Use of sponsored bank licenses (Banking-as-a-Service) with minimal AML oversight.
+-Repeated failed KYC or document forgery attempts during sign-up.
+
+Common crypto-related red flags include 
+-high-volume crypto-to-fiat conversions without documented purpose, 
+-use of privacy coins or mixers to obscure fund origins, and transactions with unregistered virtual asset service providers (VASPs). 
+-Patterns such as “chain hopping”—converting across multiple cryptocurrencies to hide origins—and transfers to sanctioned jurisdictions are particularly concerning.
+
+
+Source:
+	https://www.businessscreen.com/resources/aml-red-flags-2025-banks-and-fintechs
+
+
+
+
+Fraud :
+pig butchering  => https://www.elliptic.co/blog/levelling-up-crypto-fraud-and-money-laundering-investigations-with-automatic-behavioral-detection
+
+laundry patter => Fig 2 at https://arxiv.org/abs/2508.12641
+
+
+https://www.complycube.com/en/crypto-money-laundering-red-flags 
+								|
+								|
+								+
+Crypto Money Laundering Red Flags to Watch For
+Criminals are increasingly exploiting cryptocurrency platforms to launder illicit funds by bypassing traditional financial safeguards. The FATF’s 2024–2025 updates confirm that regulatory enforcement remains uneven, and that virtual asset platforms are regularly misused for layering, anonymity, and cross-border obfuscation.
+
+The following indicators are commonly associated with crypto-enabled money laundering:
+
+1. Unusual transaction patterns
+Frequent transfers, large round-number values, and transactions just below reporting thresholds may indicate structuring or layering activity.
+
+2. Geographical exposure
+Transactions involving high-risk or non-compliant jurisdictions increase the likelihood of regulatory evasion. FATF grey-listed and blacklisted regions are key risk areas.
+
+3. Suspicious or inconsistent identity data
+Frequent updates to user details, use of unverifiable documents, or mismatches across KYC records suggest potential identity fraud or synthetic identity use.
+
+4. Anonymity-enhancing techniques
+Tools such as mixers, tumblers, privacy coins, and peer-to-peer platforms are used to obscure asset origins and ownership.
+
+5. Unverifiable source of funds
+Inability or refusal to explain the origin of crypto assets, especially across DeFi protocols or layered wallets, may indicate illicit activity.
+
+6. Wallet and platform behaviour anomalies
+Indicators include sudden switching between custodial and non-custodial wallets, use of obfuscated wallet addresses, and inconsistent wallet activity.
