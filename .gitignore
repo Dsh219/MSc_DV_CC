@@ -3,3 +3,5 @@ Task3/blockchair_bitcoin_outputs_20260101.tsv
 bitcoin_network.gexf
 *.gexf
 Task3/day/daymins_vol.csv
+/Task3/60mins
+Task3/merged_transaction_data_20260101.csv
